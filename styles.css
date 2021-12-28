@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Playfair+Display:ital@0;1&family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Playfair+Display:ital@0;1&family=Pushster&family=Waterfall&display=swap');
+
+:root {
+    --primary-color: cyan;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Pushster';
+}
+
+.container {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem, 2rem;
+}
+
+.link-p {
+    background-color: cyan;
+    color: white;
+}
+
+.link-s {
+    color: var(--primary-color);
+    border-radius: 0.3rem;
+    border: 1px solid var(--primary-color);
+}
+
+.non-bullet {
+    list-style: none;
+
+}
+
+.list-item {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link {
+    color: white;
+    text-justify: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.hero .hero-heading {
+    color: greenyellow;
+}
+
+.section {
+    text-align: center;
+    padding: 1rem;
+}
+.section-ow {
+    text-align: center;
+    padding: 1rem;
+background-color: grey;    
+}
